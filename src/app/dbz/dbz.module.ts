@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MainPageComponent } from './page/main-page.component';
 import { ListComponent } from './components/list/list.component';
-import { FormComponent } from './components/form/form.component';
+import { AddCharacterComponent } from './components/form/add-character.component';
 
 
 
@@ -10,7 +10,7 @@ import { FormComponent } from './components/form/form.component';
   declarations: [
     MainPageComponent,
     ListComponent,
-    FormComponent
+    AddCharacterComponent,
   ],
   imports: [
     CommonModule
